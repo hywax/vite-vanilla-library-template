@@ -3,27 +3,31 @@
   "type": "module",
   "version": "0.0.0",
   "private": true,
-  "main": "./dist/vite-vanilla-library.cjs",
-  "module": "./dist/vite-vanilla-library.js",
   "exports": {
     ".": {
-      "require": "./dist/vite-vanilla-library.cjs",
-      "import": "./dist/vite-vanilla-library.mjs"
+      "import": "./dist/vite-vanilla-library.mjs",
+      "require": "./dist/vite-vanilla-library.cjs"
     }
   },
+  "main": "./dist/vite-vanilla-library.cjs",
+  "module": "./dist/vite-vanilla-library.js",
   "types": "./dist/vite-vanilla-library.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "lint": "eslint . --fix"
+    "lint": "eslint . --fix",
+    "test": "vitest",
+    "test:coverage": "vitest --coverage"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.1",
     "@types/node": "^20.10.5",
+    "@vitest/coverage-v8": "^1.1.0",
     "camelcase": "^8.0.0",
     "eslint": "^8.56.0",
     "typescript": "^5.3.3",
     "vite": "^5.0.10",
-    "vite-plugin-dts": "^3.7.0"
+    "vite-plugin-dts": "^3.7.0",
+    "vitest": "^1.1.0"
   }
 }

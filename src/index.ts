@@ -1,3 +1,1 @@
-export function sayHello(): void {
-  // ...
-}
+export { sum } from './sum'
