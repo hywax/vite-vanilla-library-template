@@ -17,7 +17,8 @@
     "build": "tsc && vite build",
     "lint": "eslint . --fix",
     "test": "vitest",
-    "test:coverage": "vitest --coverage"
+    "test:coverage": "vitest --coverage",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.1",
@@ -25,9 +26,14 @@
     "@vitest/coverage-v8": "^1.1.0",
     "camelcase": "^8.0.0",
     "eslint": "^8.56.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0",
     "typescript": "^5.3.3",
     "vite": "^5.0.10",
     "vite-plugin-dts": "^3.7.0",
     "vitest": "^1.1.0"
+  },
+  "lint-staged": {
+    "*.ts": "pnpm run lint"
   }
 }
