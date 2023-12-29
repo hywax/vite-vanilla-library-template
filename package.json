@@ -1,13 +1,20 @@
 {
-  "name": "vite-vanilla-vibrary",
+  "name": "vite-vanilla-library",
   "type": "module",
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
     "lint": "eslint . --fix"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.1",
-    "eslint": "^8.56.0"
+    "@types/node": "^20.10.5",
+    "camelcase": "^8.0.0",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10",
+    "vite-plugin-dts": "^3.7.0"
   }
 }
