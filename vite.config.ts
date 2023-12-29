@@ -14,6 +14,9 @@ export default defineConfig({
       fileName: packageJson.name,
     },
   },
+  server: {
+    open: '/dev/index.html',
+  },
   plugins: [
     dts({ rollupTypes: true }),
   ],
