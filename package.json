@@ -1,6 +1,13 @@
 {
   "name": "vite-vanilla-vibrary",
-  "private": true,
+  "type": "module",
   "version": "0.0.0",
-  "scripts": {}
+  "private": true,
+  "scripts": {
+    "lint": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.6.1",
+    "eslint": "^8.56.0"
+  }
 }
