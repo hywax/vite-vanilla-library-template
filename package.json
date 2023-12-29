@@ -15,6 +15,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "release": "pnpm test && pnpm build && changelogen --release && pnpm publish && git push --follow-tags",
     "lint": "eslint . --fix",
     "test": "vitest",
     "test:coverage": "vitest --coverage",
@@ -27,6 +28,7 @@
     "@types/node": "^20.10.5",
     "@vitest/coverage-v8": "^1.1.0",
     "camelcase": "^8.0.0",
+    "changelogen": "^0.5.5",
     "eslint": "^8.56.0",
     "husky": "^8.0.3",
     "lint-staged": "^15.2.0",
