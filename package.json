@@ -3,6 +3,15 @@
   "type": "module",
   "version": "0.0.0",
   "private": true,
+  "main": "./dist/vite-vanilla-library.cjs",
+  "module": "./dist/vite-vanilla-library.js",
+  "exports": {
+    ".": {
+      "require": "./dist/vite-vanilla-library.cjs",
+      "import": "./dist/vite-vanilla-library.mjs"
+    }
+  },
+  "types": "./dist/vite-vanilla-library.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
