@@ -16,7 +16,7 @@ Template for creating a library with a fully customized environment.
 
 ### GitHub Template
 
-This is a template repo. Click the green [Use this template](https://github.com/kbysiec/hywax/vite-vanilla-library-template/generate) button to get started.
+This is a template repo. Click the green [Use this template](https://github.com/hywax/vite-vanilla-library-template/generate) button to get started.
 
 ### Git Clone
 
