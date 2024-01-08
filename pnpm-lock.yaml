@@ -39,11 +39,11 @@ devDependencies:
     specifier: ^5.3.3
     version: 5.3.3
   vite:
-    specifier: ^5.0.10
-    version: 5.0.10(@types/node@20.10.7)
+    specifier: ^5.0.11
+    version: 5.0.11(@types/node@20.10.7)
   vite-plugin-dts:
     specifier: ^3.7.0
-    version: 3.7.0(@types/node@20.10.7)(typescript@5.3.3)(vite@5.0.10)
+    version: 3.7.0(@types/node@20.10.7)(typescript@5.3.3)(vite@5.0.11)
   vitest:
     specifier: ^1.1.2
     version: 1.1.2(@types/node@20.10.7)
@@ -4391,7 +4391,7 @@ packages:
       debug: 4.3.4
       pathe: 1.1.1
       picocolors: 1.0.0
-      vite: 5.0.10(@types/node@20.10.7)
+      vite: 5.0.11(@types/node@20.10.7)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -4403,7 +4403,7 @@ packages:
       - terser
     dev: true
 
-  /vite-plugin-dts@3.7.0(@types/node@20.10.7)(typescript@5.3.3)(vite@5.0.10):
+  /vite-plugin-dts@3.7.0(@types/node@20.10.7)(typescript@5.3.3)(vite@5.0.11):
     resolution: {integrity: sha512-np1uPaYzu98AtPReB8zkMnbjwcNHOABsLhqVOf81b3ol9b5M2wPcAVs8oqPnOpr6Us+7yDXVauwkxsk5+ldmRA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -4419,7 +4419,7 @@ packages:
       debug: 4.3.4
       kolorist: 1.8.0
       typescript: 5.3.3
-      vite: 5.0.10(@types/node@20.10.7)
+      vite: 5.0.11(@types/node@20.10.7)
       vue-tsc: 1.8.27(typescript@5.3.3)
     transitivePeerDependencies:
       - '@types/node'
@@ -4427,8 +4427,8 @@ packages:
       - supports-color
     dev: true
 
-  /vite@5.0.10(@types/node@20.10.7):
-    resolution: {integrity: sha512-2P8J7WWgmc355HUMlFrwofacvr98DAjoE52BfdbwQtyLH06XKwaL/FMnmKM2crF0iX4MpmMKoDlNCB1ok7zHCw==}
+  /vite@5.0.11(@types/node@20.10.7):
+    resolution: {integrity: sha512-XBMnDjZcNAw/G1gEiskiM1v6yzM4GE5aMGvhWTlHAYYhxb7S3/V1s3m2LDHa8Vh6yIWYYB0iJwsEaS523c4oYA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -4507,7 +4507,7 @@ packages:
       strip-literal: 1.3.0
       tinybench: 2.5.1
       tinypool: 0.8.1
-      vite: 5.0.10(@types/node@20.10.7)
+      vite: 5.0.11(@types/node@20.10.7)
       vite-node: 1.1.2(@types/node@20.10.7)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
