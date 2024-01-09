@@ -5,7 +5,7 @@
   "private": true,
   "exports": {
     ".": {
-      "import": "./dist/vite-vanilla-library.mjs",
+      "import": "./dist/vite-vanilla-library.js",
       "require": "./dist/vite-vanilla-library.cjs"
     }
   },
