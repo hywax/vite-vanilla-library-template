@@ -17,7 +17,8 @@
     "build": "tsc && vite build",
     "release": "pnpm test && pnpm build && changelogen --release && pnpm publish && git push --follow-tags",
     "lint": "eslint . --fix",
-    "test": "vitest",
+    "test": "vitest --run",
+    "test:watch": "vitest",
     "test:coverage": "vitest --coverage",
     "prepare": "husky install"
   },
