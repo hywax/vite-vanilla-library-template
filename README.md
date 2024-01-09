@@ -35,6 +35,7 @@ The template contains the following scripts:
 * `release` - Generate changelog and npm publish
 * `lint` - Checks your code for any linting errors
 * `test` - Run all tests
+* `test:watch` - Run all tests with watch mode
 * `test:coverage` - Run all tests with code coverage report
 * `prepare` - Script for setting up husky hooks
 
