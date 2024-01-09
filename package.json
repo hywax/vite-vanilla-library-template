@@ -12,6 +12,7 @@
   "main": "./dist/vite-vanilla-library.cjs",
   "module": "./dist/vite-vanilla-library.js",
   "types": "./dist/vite-vanilla-library.d.ts",
+  "files": ["dist"],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
