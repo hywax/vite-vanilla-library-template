@@ -15,7 +15,7 @@ devDependencies:
     specifier: ^18.6.0
     version: 18.6.0
   '@types/node':
-    specifier: ^20.11.14
+    specifier: ^20.11.15
     version: 20.11.15
   '@vitest/coverage-v8':
     specifier: ^1.2.2
