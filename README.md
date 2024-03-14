@@ -40,6 +40,14 @@ The template contains the following scripts:
 * `test:coverage` - Run all tests with code coverage report
 * `prepare` - Script for setting up husky hooks
 
+## Used by
+
+* [vitepress-yandex-metrika](https://github.com/hywax/vitepress-yandex-metrika)
+* [gotify-client](https://github.com/hywax/gotify-client)
+* [lxc-idmapper](https://github.com/hywax/lxc-idmapper)
+
+If you are using this template, feel free to open a PR to add your project to the list.
+
 ## License
 
 This template was created under the [MIT License](LICENSE).
