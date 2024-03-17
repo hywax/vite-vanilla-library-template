@@ -10,6 +10,7 @@ Template for creating a library with a fully customized environment.
 * 💅 Generate beautiful changelogs with [changelogen](https://github.com/unjs/changelogen)
 * ♾️ GitHub CI for your build
 * 📢 Issue templates
+* 📝 Pull request template
 * 🤖 Ready configuration for [renovatebot](https://github.com/apps/renovate) with [renovate-config](https://github.com/hywax/renovate-config)
 * 🚀 Library releases with just one command
 
