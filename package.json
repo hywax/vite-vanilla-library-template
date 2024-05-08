@@ -23,20 +23,20 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.16.1",
+    "@antfu/eslint-config": "^2.17.0",
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
-    "@types/node": "^20.12.7",
-    "@vitest/coverage-v8": "^1.5.3",
+    "@types/node": "^20.12.11",
+    "@vitest/coverage-v8": "^1.6.0",
     "camelcase": "^8.0.0",
     "changelogen": "^0.5.5",
-    "eslint": "^9.1.1",
+    "eslint": "^9.2.0",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
     "typescript": "^5.4.5",
-    "vite": "^5.2.10",
-    "vite-plugin-dts": "^3.9.0",
-    "vitest": "^1.5.3"
+    "vite": "^5.2.11",
+    "vite-plugin-dts": "^3.9.1",
+    "vitest": "^1.6.0"
   },
   "lint-staged": {
     "*.ts": "pnpm run lint"
