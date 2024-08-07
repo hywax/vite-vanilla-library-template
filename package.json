@@ -35,7 +35,7 @@
     "lint-staged": "^15.2.8",
     "typescript": "^5.5.4",
     "vite": "^5.3.5",
-    "vite-plugin-dts": "^3.9.1",
+    "vite-plugin-dts": "^4.0.1",
     "vitest": "^1.6.0"
   },
   "lint-staged": {
