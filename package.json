@@ -30,7 +30,7 @@
     "@vitest/coverage-v8": "^1.6.0",
     "camelcase": "^8.0.0",
     "changelogen": "^0.5.5",
-    "eslint": "^9.9.1",
+    "eslint": "^9.10.0",
     "husky": "^9.1.5",
     "lint-staged": "^15.2.10",
     "typescript": "^5.5.4",
