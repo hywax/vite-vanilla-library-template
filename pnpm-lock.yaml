@@ -42,11 +42,11 @@ importers:
         specifier: ^5.6.2
         version: 5.6.2
       vite:
-        specifier: ^5.4.5
-        version: 5.4.5(@types/node@20.16.5)
+        specifier: ^5.4.6
+        version: 5.4.6(@types/node@20.16.5)
       vite-plugin-dts:
         specifier: ^3.9.1
-        version: 3.9.1(@types/node@20.16.5)(rollup@4.21.0)(typescript@5.6.2)(vite@5.4.5(@types/node@20.16.5))
+        version: 3.9.1(@types/node@20.16.5)(rollup@4.21.0)(typescript@5.6.2)(vite@5.4.6(@types/node@20.16.5))
       vitest:
         specifier: ^1.6.0
         version: 1.6.0(@types/node@20.16.5)
@@ -2620,8 +2620,8 @@ packages:
       vite:
         optional: true
 
-  vite@5.4.5:
-    resolution: {integrity: sha512-pXqR0qtb2bTwLkev4SE3r4abCNioP3GkjvIDLlzziPpXtHgiJIjuKl+1GN6ESOT3wMjG3JTeARopj2SwYaHTOA==}
+  vite@5.4.6:
+    resolution: {integrity: sha512-IeL5f8OO5nylsgzd9tq4qD2QqI0k2CQLGrWD0rCN0EQJZpBK5vJAx0I+GDkMOXxQX/OfFHMuLIx6ddAxGX/k+Q==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -5390,7 +5390,7 @@ snapshots:
       debug: 4.3.4
       pathe: 1.1.2
       picocolors: 1.0.1
-      vite: 5.4.5(@types/node@20.16.5)
+      vite: 5.4.6(@types/node@20.16.5)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -5402,7 +5402,7 @@ snapshots:
       - supports-color
       - terser
 
-  vite-plugin-dts@3.9.1(@types/node@20.16.5)(rollup@4.21.0)(typescript@5.6.2)(vite@5.4.5(@types/node@20.16.5)):
+  vite-plugin-dts@3.9.1(@types/node@20.16.5)(rollup@4.21.0)(typescript@5.6.2)(vite@5.4.6(@types/node@20.16.5)):
     dependencies:
       '@microsoft/api-extractor': 7.43.0(@types/node@20.16.5)
       '@rollup/pluginutils': 5.1.0(rollup@4.21.0)
@@ -5413,13 +5413,13 @@ snapshots:
       typescript: 5.6.2
       vue-tsc: 1.8.27(typescript@5.6.2)
     optionalDependencies:
-      vite: 5.4.5(@types/node@20.16.5)
+      vite: 5.4.6(@types/node@20.16.5)
     transitivePeerDependencies:
       - '@types/node'
       - rollup
       - supports-color
 
-  vite@5.4.5(@types/node@20.16.5):
+  vite@5.4.6(@types/node@20.16.5):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.45
@@ -5447,7 +5447,7 @@ snapshots:
       strip-literal: 2.0.0
       tinybench: 2.5.1
       tinypool: 0.8.3
-      vite: 5.4.5(@types/node@20.16.5)
+      vite: 5.4.6(@types/node@20.16.5)
       vite-node: 1.6.0(@types/node@20.16.5)
       why-is-node-running: 2.2.2
     optionalDependencies:
