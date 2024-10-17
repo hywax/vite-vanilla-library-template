@@ -23,10 +23,10 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^3.7.3",
+    "@antfu/eslint-config": "^3.8.0",
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
-    "@types/node": "^20.16.11",
+    "@types/node": "^20.16.12",
     "@vitest/coverage-v8": "^1.6.0",
     "camelcase": "^8.0.0",
     "changelogen": "^0.5.7",
