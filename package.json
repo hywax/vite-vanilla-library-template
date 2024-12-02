@@ -27,7 +27,7 @@
     "@commitlint/cli": "^19.6.0",
     "@commitlint/config-conventional": "^19.6.0",
     "@types/node": "^20.17.9",
-    "@vitest/coverage-v8": "^2.1.6",
+    "@vitest/coverage-v8": "^2.1.8",
     "camelcase": "^8.0.0",
     "changelogen": "^0.5.7",
     "eslint": "^9.16.0",
@@ -36,7 +36,7 @@
     "typescript": "^5.7.2",
     "vite": "^5.4.11",
     "vite-plugin-dts": "^4.3.0",
-    "vitest": "^2.1.6"
+    "vitest": "^2.1.8"
   },
   "lint-staged": {
     "*.ts": "pnpm run lint"
