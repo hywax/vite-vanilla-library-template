@@ -42,11 +42,11 @@ importers:
         specifier: ^5.7.2
         version: 5.7.2
       vite:
-        specifier: ^6.0.6
-        version: 6.0.6(@types/node@20.17.11)(jiti@2.4.1)(yaml@2.6.1)
+        specifier: ^6.0.7
+        version: 6.0.7(@types/node@20.17.11)(jiti@2.4.1)(yaml@2.6.1)
       vite-plugin-dts:
         specifier: ^4.4.0
-        version: 4.4.0(@types/node@20.17.11)(rollup@4.28.1)(typescript@5.7.2)(vite@6.0.6(@types/node@20.17.11)(jiti@2.4.1)(yaml@2.6.1))
+        version: 4.4.0(@types/node@20.17.11)(rollup@4.28.1)(typescript@5.7.2)(vite@6.0.7(@types/node@20.17.11)(jiti@2.4.1)(yaml@2.6.1))
       vitest:
         specifier: ^2.1.8
         version: 2.1.8(@types/node@20.17.11)
@@ -2923,8 +2923,8 @@ packages:
       terser:
         optional: true
 
-  vite@6.0.6:
-    resolution: {integrity: sha512-NSjmUuckPmDU18bHz7QZ+bTYhRR0iA72cs2QAxCqDpafJ0S6qetco0LB3WW2OxlMHS0JmAv+yZ/R3uPmMyGTjQ==}
+  vite@6.0.7:
+    resolution: {integrity: sha512-RDt8r/7qx9940f8FcOIAH9PTViRrghKaK2K1jY3RaAURrEUbm9Du1mJ72G+jlhtG3WwodnfzY8ORQZbBavZEAQ==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -6088,7 +6088,7 @@ snapshots:
       - supports-color
       - terser
 
-  vite-plugin-dts@4.4.0(@types/node@20.17.11)(rollup@4.28.1)(typescript@5.7.2)(vite@6.0.6(@types/node@20.17.11)(jiti@2.4.1)(yaml@2.6.1)):
+  vite-plugin-dts@4.4.0(@types/node@20.17.11)(rollup@4.28.1)(typescript@5.7.2)(vite@6.0.7(@types/node@20.17.11)(jiti@2.4.1)(yaml@2.6.1)):
     dependencies:
       '@microsoft/api-extractor': 7.48.1(@types/node@20.17.11)
       '@rollup/pluginutils': 5.1.4(rollup@4.28.1)
@@ -6101,7 +6101,7 @@ snapshots:
       magic-string: 0.30.17
       typescript: 5.7.2
     optionalDependencies:
-      vite: 6.0.6(@types/node@20.17.11)(jiti@2.4.1)(yaml@2.6.1)
+      vite: 6.0.7(@types/node@20.17.11)(jiti@2.4.1)(yaml@2.6.1)
     transitivePeerDependencies:
       - '@types/node'
       - rollup
@@ -6116,7 +6116,7 @@ snapshots:
       '@types/node': 20.17.11
       fsevents: 2.3.3
 
-  vite@6.0.6(@types/node@20.17.11)(jiti@2.4.1)(yaml@2.6.1):
+  vite@6.0.7(@types/node@20.17.11)(jiti@2.4.1)(yaml@2.6.1):
     dependencies:
       esbuild: 0.24.2
       postcss: 8.4.49
