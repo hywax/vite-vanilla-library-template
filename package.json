@@ -24,10 +24,10 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^6.7.3",
-    "@commitlint/cli": "^20.4.3",
-    "@commitlint/config-conventional": "^20.4.3",
+    "@commitlint/cli": "^20.4.4",
+    "@commitlint/config-conventional": "^20.4.4",
     "@types/node": "^22.19.15",
-    "@vitest/coverage-v8": "^4.0.18",
+    "@vitest/coverage-v8": "^4.1.0",
     "camelcase": "^9.0.0",
     "changelogen": "^0.6.2",
     "eslint": "^9.39.4",
@@ -36,7 +36,7 @@
     "typescript": "^5.9.3",
     "vite": "^7.3.1",
     "vite-plugin-dts": "^4.5.4",
-    "vitest": "^4.0.18"
+    "vitest": "^4.1.0"
   },
   "lint-staged": {
     "*.ts": "pnpm run lint"
