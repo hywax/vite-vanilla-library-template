@@ -24,8 +24,8 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^6.7.3",
-    "@commitlint/cli": "^20.5.3",
-    "@commitlint/config-conventional": "^20.5.3",
+    "@commitlint/cli": "^21.0.2",
+    "@commitlint/config-conventional": "^21.0.2",
     "@types/node": "^22.19.21",
     "@vitest/coverage-v8": "^4.1.8",
     "camelcase": "^9.0.0",
